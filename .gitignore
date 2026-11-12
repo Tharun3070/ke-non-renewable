@@ -1,0 +1,19 @@
+# Environment secrets
+.env
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Local vector database binaries (regenerated locally via Knowledge Base sync)
+chroma_db/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
